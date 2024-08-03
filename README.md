@@ -1,8 +1,16 @@
-# React + Vite
+Here’s a sample README for your React chat application that includes information about setup, usage, and deployment:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# React Chat Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple React-based chat application featuring light and dark themes, message handling, and Markdown rendering. The app allows users to send messages, view responses, and toggle between light and dark themes.
+
+## Features
+
+- **Light/Dark Theme Toggle:** Switch between light and dark themes.
+- **Markdown Support:** Render messages with Markdown formatting.
+- **Message History:** Save and load message history from `localStorage`.
+- **Simulated Responses:** Generate dummy responses for demonstration purposes.
+- **Avatar Support:** Display user and system avatars.
+
