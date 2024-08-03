@@ -8,6 +8,7 @@
   --shadow-color: rgba(0, 0, 0, 0.1);
   --icon-color: black;
   --shadow: white;
+  --radius:0px;
   /* Icon color in light mode */
 }
 
@@ -20,6 +21,7 @@
   --shadow-color: rgba(255, 255, 255, 0.1);
   --icon-color: black;
   --shadow: black;
+  --radius:22px;
   /* Icon color in dark mode 
   */
 }
@@ -148,18 +150,16 @@
 .input-container button img{
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: var(--radius);
   background-color: white;
-  color: white;
+  color :white;
+  padding: 2px;
   border: none;
   cursor: pointer;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
 }
 
-.input-container button:hover {
-  transform: scale(1.1);
-  background-color: var(--background-color);
-}
+
 
 .theme-toggle {
   position: absolute;
@@ -178,7 +178,8 @@
   .input-container button img{
   width: 55px;
   height: 52px;
-  border-radius: 50%;
+  border-radius: var(--radius);
+  padding: 2px;
   background-color: white;
   color: white;
   border: none;
