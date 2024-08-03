@@ -109,7 +109,7 @@ const App = () => {
                   src={
                     msg.sender === 'user'
                       ? 'https://github.com/shadcn.png' // User avatar
-                      : '/src/assets/machine.svg' // System avatar
+                      : '/src/assets/machine.png' // System avatar
                   }
                   alt={`${msg.sender} avatar`}
                 />
@@ -131,7 +131,7 @@ const App = () => {
             placeholder="Type a message..."
           />
           <Button onClick={sendMessage}>
-            <img src="src/assets/send-icon.png" alt="Send" />
+            <img src="/src/assets/send-icon.png" alt="Send" />
           </Button>
         </div>
       </div>
